@@ -1,0 +1,82 @@
+html{
+    font-family: 'Tilt Prism';
+    font-family: 'Rubik Wet Paint';
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+nav{
+    position: fixed;
+    color: black;
+    font-size: 3rem;
+    font-style: bold;
+    margin: 0;
+    top: 0; left: 0;
+    border-bottom: 0.25px solid white;
+    height: 80px;
+    background-color: #FD9BC5;
+    width: 100vw;
+    text-align: center;
+}
+body{
+    background-color: #545E75 ;
+}
+.boardScore{
+    padding: 10px;
+    font-size: 1.1rem;
+    color: black;
+    background-color: #FD9BC5;
+    width: 800px;
+    height: 300px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 0px 7px 28px -4px rgba(0,0,0,0.75);
+}
+#BoardScore{
+    margin-top: 15px;
+    border-bottom: 2px dashed black;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.container{
+    font-size: 2rem;
+  
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.userchoice{
+    margin: 5px;
+    width: fit-content;
+    padding: 20px;
+
+}
+.computerchoice{
+    margin: 5px;
+    padding: 20px;
+    width: fit-content;
+    }
+img, .img2{
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #545E75;
+    border-radius: 50%;
+
+}
+img:hover{
+    cursor: pointer;
+}
+.img2:hover{
+    cursor: not-allowed;}
+/* .img2{
+     
+        border: 1px dashed #FD9BC5;
+        border-radius: 50%;
+    } */
