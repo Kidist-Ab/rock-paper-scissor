@@ -32,7 +32,7 @@ body{
     font-size: 1.1rem;
     color: black;
     background-color: #FD9BC5;
-    width: 800px;
+    width: 500px;
     height: 300px;
     border-radius: 30px;
     margin: auto;
@@ -46,11 +46,11 @@ body{
     font-size: 1.4rem;
 }
 .container{
+    width: 100%;
     font-size: 2rem;
-  
     display: flex;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .userchoice{
     margin: 5px;
@@ -80,3 +80,11 @@ img:hover{
         border: 1px dashed #FD9BC5;
         border-radius: 50%;
     } */
+    
+
+@media only screen and (max-width:810px){
+   
+    nav{
+        width: 100%;
+    }
+}
